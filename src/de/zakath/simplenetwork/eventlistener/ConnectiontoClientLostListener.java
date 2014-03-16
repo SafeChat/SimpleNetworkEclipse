@@ -5,14 +5,15 @@
  */
 package de.zakath.simplenetwork.eventlistener;
 
-import de.zakath.simplenetwork.eventargs.*;
+import de.zakath.simplenetwork.eventargs.ConnectiontoClientLostEventArgs;
 
 /**
- *
+ * 
  * @author cw
  */
 public interface ConnectiontoClientLostListener
 {
 
-    void OnConnectiontoClientLost(Object sender, ConnectiontoClientLostEventArgs e);
+	void OnConnectiontoClientLost(Object sender,
+			ConnectiontoClientLostEventArgs e);
 }

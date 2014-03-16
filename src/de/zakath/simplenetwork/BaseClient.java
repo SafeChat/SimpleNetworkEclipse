@@ -5,12 +5,13 @@
  */
 package de.zakath.simplenetwork;
 
-import de.zakath.simplenetwork.eventargs.*;
-import de.zakath.simplenetwork.eventlistener.*;
 import java.io.*;
-import java.net.*;
+import java.net.Socket;
 import java.util.*;
 import java.util.logging.*;
+
+import de.zakath.simplenetwork.eventargs.*;
+import de.zakath.simplenetwork.eventlistener.*;
 
 /**
  * 

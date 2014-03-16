@@ -5,24 +5,24 @@
  */
 package de.zakath.simplenetwork.eventargs;
 
-import de.zakath.simplenetwork.*;
+import de.zakath.simplenetwork.BaseClient;
 
 /**
- *
+ * 
  * @author cw
  */
 public class ClientConnectedEventArgs
 {
 
-    private BaseClient _c;
+	private BaseClient _c;
 
-    public BaseClient getClient()
-    {
-        return _c;
-    }
+	public BaseClient getClient()
+	{
+		return _c;
+	}
 
-    public ClientConnectedEventArgs(BaseClient c)
-    {
-        _c = c;
-    }
+	public ClientConnectedEventArgs(BaseClient c)
+	{
+		_c = c;
+	}
 }

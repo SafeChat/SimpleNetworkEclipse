@@ -5,24 +5,24 @@
  */
 package de.zakath.simplenetwork.eventargs;
 
-import de.zakath.simplenetwork.*;
+import de.zakath.simplenetwork.BaseClient;
 
 /**
- *
+ * 
  * @author cw
  */
 public class ConnectiontoClientLostEventArgs
 {
 
-    private final BaseClient _c;
+	private final BaseClient _c;
 
-    public BaseClient getClient()
-    {
-        return _c;
-    }
+	public BaseClient getClient()
+	{
+		return _c;
+	}
 
-    public ConnectiontoClientLostEventArgs(BaseClient c)
-    {
-        _c = c;
-    }
+	public ConnectiontoClientLostEventArgs(BaseClient c)
+	{
+		_c = c;
+	}
 }

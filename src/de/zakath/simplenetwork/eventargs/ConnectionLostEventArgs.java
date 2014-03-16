@@ -7,10 +7,10 @@
 package de.zakath.simplenetwork.eventargs;
 
 /**
- *
+ * 
  * @author cw
  */
 public class ConnectionLostEventArgs
 {
-    
+
 }

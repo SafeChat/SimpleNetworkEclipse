@@ -5,14 +5,14 @@
  */
 package de.zakath.simplenetwork.eventlistener;
 
-import de.zakath.simplenetwork.eventargs.*;
+import de.zakath.simplenetwork.eventargs.NewMessageEventArgs;
 
 /**
- *
+ * 
  * @author cw
  */
 public interface NewMessageListener
 {
 
-    public void OnNewMessage(Object sender, NewMessageEventArgs e);
+	public void OnNewMessage(Object sender, NewMessageEventArgs e);
 }

@@ -5,25 +5,25 @@
  */
 package de.zakath.simplenetwork.eventargs;
 
-import de.zakath.simplenetwork.*;
+import de.zakath.simplenetwork.Message;
 
 /**
- *
+ * 
  * @author cw
  */
 public class NewMessageEventArgs
 {
 
-    private final Message _m;
+	private final Message _m;
 
-    public Message getMessage()
-    {
-        return _m;
-    }
+	public Message getMessage()
+	{
+		return _m;
+	}
 
-    public NewMessageEventArgs(Message m)
-    {
-        _m = m;
-    }
+	public NewMessageEventArgs(Message m)
+	{
+		_m = m;
+	}
 
 }
