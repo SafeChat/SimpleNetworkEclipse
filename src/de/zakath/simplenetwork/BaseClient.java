@@ -321,7 +321,8 @@ public class BaseClient
 	/**
 	 * Removes a MessageListener from the MessageListenerlist
 	 * 
-	 * @param listener The MessageListener that should be removed
+	 * @param listener
+	 *            The MessageListener that should be removed
 	 */
 	public void removeNewMessageListener(NewMessageListener listener)
 	{
@@ -340,7 +341,9 @@ public class BaseClient
 
 	/**
 	 * Adds a new ConnectionLostListener to the ConnectionLostListenerlist
-	 * @param listener The ConnectionLostListener that should be add
+	 * 
+	 * @param listener
+	 *            The ConnectionLostListener that should be add
 	 */
 	public void addConnectionLostListener(ConnectionLostListener listener)
 	{
@@ -349,7 +352,9 @@ public class BaseClient
 
 	/**
 	 * Removes a ConnectionLostListener from the ConnectionLostListenerlist
-	 * @param listener The ConnectionLostListener that should be removed
+	 * 
+	 * @param listener
+	 *            The ConnectionLostListener that should be removed
 	 */
 	public void removeConnectionLostListener(ConnectionLostListener listener)
 	{
